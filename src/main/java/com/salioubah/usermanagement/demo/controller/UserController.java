@@ -86,12 +86,12 @@ public class UserController {
         User userSaved = userService.addUser(user);
         Map<String,Object> result = new HashMap<>();
         result.put("userId", userSaved.getId());
-        result.put("status", HttpStatus.OK);
+        result.put("status", HttpStatus.CREATED);
         result.put("result", "SUCCESS");
 
         time = System.currentTimeMillis() - time;
         logger.log(Level.INFO,"Ending addUser in POST('/users') "+ time + " ms");
-        return ResponseEntity.ok().body(result);
+        return new ResponseEntity<>(result,HttpStatus.CREATED);
     }
 
 }
