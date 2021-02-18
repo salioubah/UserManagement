@@ -1,4 +1,4 @@
-# Spring Boot "Microservice" User Management
+# Spring Boot "REST API" User Management
 ***
 This is a sample User Management with Spring Boot
 
