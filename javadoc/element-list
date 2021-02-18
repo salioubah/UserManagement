@@ -1,0 +1,8 @@
+com.salioubah.usermanagement.demo
+com.salioubah.usermanagement.demo.constants
+com.salioubah.usermanagement.demo.controller
+com.salioubah.usermanagement.demo.exception
+com.salioubah.usermanagement.demo.model
+com.salioubah.usermanagement.demo.repo
+com.salioubah.usermanagement.demo.service
+com.salioubah.usermanagement.demo.utils
