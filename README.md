@@ -2,6 +2,10 @@
 ***
 This is a sample User Management with Spring Boot
 
+### About Javadoc
+
+You can launch the index.html file inside javadoc folder.
+
 ## How to Run
 ***
 * Clone this repository
